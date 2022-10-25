@@ -12,7 +12,7 @@ int interpolationSearch(int a[], int n, int key) {
 		else  mid = left;
 
 		if (key == a[mid]) return mid;
-		else if (key > a[middle]) left = mid + 1;
+		else if (key > a[mid]) left = mid + 1;
 		else right = mid - 1;
 	}
 	return -1;
